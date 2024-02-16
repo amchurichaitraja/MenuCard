@@ -1,0 +1,17 @@
+<form>
+       <div class="filter-container">
+              <span>Filter:</span>
+
+              <input type="radio" name="Filter" value="All" [(ngModel)]="selectedRadioButtonValue"
+                     (change)="onRadioButtonSelectionChanged()" />
+              <span>{{'All Recipes('+All+')'}}</span>
+
+              <input type="radio" name="Filter" value="Non-Veg" [(ngModel)]="selectedRadioButtonValue"
+                     (change)="onRadioButtonSelectionChanged()" />
+              <span>{{'NonVeg('+NonVeg+')'}}</span>
+
+              <input type="radio" name="Filter" value="Veg" [(ngModel)]="selectedRadioButtonValue"
+                     (change)="onRadioButtonSelectionChanged()" />
+              <span>{{'Veg('+Veg+')'}}</span>
+       </div>
+</form>

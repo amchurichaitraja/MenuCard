@@ -1,0 +1,40 @@
+.list-container{
+    display:inline-flex
+}
+.list-card{
+    width: 220px;
+    height: 320px;
+    margin: 10px 10px;
+    background-color: #f8f9f9;
+}
+.list-name{
+    text-align: center;
+}
+.list-description{
+    /* margin: 10px 0px;
+    padding: 5px 10px; */
+    font-size: 10px;
+}
+.details{
+    display: flex;
+    margin: 10px 0px;
+}
+.list-type{
+    width: 50%;
+    font-weight: bold;
+}
+.list-buttons{
+    display: flex;
+}
+.btn{
+    width: 140px;
+    height: 30px;
+    border: none;
+    margin: 5px 3px;
+}
+.btn-buy{
+    background-color: #ec7063;
+}
+.btn-show{
+    background-color: #abebc6;
+}
