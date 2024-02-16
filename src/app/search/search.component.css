@@ -3,9 +3,10 @@
 }
 input[type=text]{
     width: 340px;
-    height: 20px;
+    height: 10px;
     padding: 15px;
-    border: solid;
+    border: 1px solid #bbbbbb;
     margin-left: 10px;
-} 
+    border-radius: 25px;
+}
 

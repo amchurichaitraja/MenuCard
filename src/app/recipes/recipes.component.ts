@@ -21,7 +21,7 @@ lists=[
   description:'Aloo Paratha are Indian Breakfast flatbreads made with whole wheat flour, boiled potatoes, spices & herbs.'},
   {id:7,name:'Mashroom Curry',chef:'pavani',type:'Veg',price:'15.00',rating:4.0,image:'https://www.thelastfoodblog.com/wp-content/uploads/2017/09/mushroom-curry-2.jpg',
   description:'Mushroom Curry is an incredible Indian curry made with mushrooms, onions, garlic, and warm spices'},
-  {id:8,name:'Beans with Dry Coconut Curry',chef:'Chaitu',type:'Veg',price:'10.98',rating:4.5,image:'https://th.bing.com/th/id/R.dfa82c2801c5b288a3c5e76615eedda1?rik=DxpzzyJlwoQcig&riu=http%3a%2f%2f1.bp.blogspot.com%2f_etlYMYxmFiQ%2fTR1QWP54nYI%2fAAAAAAAAC-Y%2fwXD8Wn0HUjE%2fs1600%2fDSC_0014s.jpg&ehk=5MivoNFBnctPglVIMckIgEJahHBwyGN%2fO4dGQumUh5U%3d&risl=&pid=ImgRaw&r=0',
+  {id:8,name:'Beans with Coconut',chef:'Chaitu',type:'Veg',price:'10.98',rating:4.5,image:'https://th.bing.com/th/id/R.dfa82c2801c5b288a3c5e76615eedda1?rik=DxpzzyJlwoQcig&riu=http%3a%2f%2f1.bp.blogspot.com%2f_etlYMYxmFiQ%2fTR1QWP54nYI%2fAAAAAAAAC-Y%2fwXD8Wn0HUjE%2fs1600%2fDSC_0014s.jpg&ehk=5MivoNFBnctPglVIMckIgEJahHBwyGN%2fO4dGQumUh5U%3d&risl=&pid=ImgRaw&r=0',
   description:'Beans curry is one of my signature recipes of mine which is really tastes like yummm!!'},
   {id:9,name:'Banana Cake',chef:'Hamsa',type:'Veg',price:'15.65',rating:4.0,image:'https://images.saymedia-content.com/.image/t_share/MTc2MjM2NzM3NjUwMzA0OTAz/quick_and_easy_banana_cake_.jpg',
   description:'A banana cake is a cake prepared using banana as a primary ingredient and typical cake ingredients. It can be prepared in various manners, including as a layer cake, as muffins and as cupcakes.'},

@@ -1,29 +1,31 @@
-<div>
+<div class="filters">
     <app-search (searchTextChanges)="onSearchTextEntered($event)"></app-search>
-    <app-filter 
-    [All]="getTotallists()"
-    [Veg]="getTotalveglists()"
-    [NonVeg]="getTotalNonveglists()"
-    (filterRadioButtonSelectionChanged)="onfilterRadioButttonChanged($event)"></app-filter>
+    <app-filter [All]="getTotallists()" [Veg]="getTotalveglists()" [NonVeg]="getTotalNonveglists()"
+        (filterRadioButtonSelectionChanged)="onfilterRadioButttonChanged($event)"></app-filter>
 </div>
-<ng-container  *ngFor="let list of lists">
-<ng-container *ngIf="listsCountRadioButton === 'All' || listsCountRadioButton === list.type">
-    <div class="list-container" *ngIf="searchText === '' || list.name.toLowerCase().includes(searchText) ">
-        <div class="list-card">
-            <div>
-                <img [src]="list.image" style="width:220px;height:140px;">
-            </div>
-            <div class="list-name"><h4>{{ list.name }}</h4></div>
-            <div class="list-description"><p>{{list.description.slice(0,80)}}....</p></div>
-            <div class="details">
-                <div class="list-type" [ngStyle]="{color:list.type === 'Veg' ? 'Green' : 'red'}">{{list.type}}</div>
-                <div class="list-price"><b>Price:</b>${{list.price}}</div>
-            </div>
-            <div class="list-buttons">
-            <button class="btn btn-buy">Buy Now</button>
-            <button class="btn btn-show">Show Details</button>
+<ng-container *ngFor="let list of lists">
+    <ng-container *ngIf="listsCountRadioButton === 'All' || listsCountRadioButton === list.type">
+        <div class="list-container" *ngIf="searchText === '' || list.name.toLowerCase().includes(searchText) ">
+            <div class="list-card">
+                <div>
+                    <img [src]="list.image" style="width:220px;height:140px;">
+                </div>
+                <div class="list-name">
+                    <h4 class="m-5">{{ list.name | titlecase }}<span class="list-type"
+                            [ngStyle]="{color:list.type === 'Veg' ? 'Green' : 'red'}">({{list.type}})</span></h4>
+                </div>
+                <div class="list-description">
+                    <p>{{list.description.slice(0,50)}}....</p>
+                    <span class="show-details">More Details</span>
+                </div>
+                <!-- <div class="details"> -->
+                <!-- <div class="list-type" [ngStyle]="{color:list.type === 'Veg' ? 'Green' : 'red'}">{{list.type}}</div> -->
+                <!-- <div class="list-price"><b>Price:</b></div> -->
+                <!-- </div> -->
+                <div class="list-buttons">
+                    <button class="btn btn-buy">Price:${{list.price}}</button>
+                </div>
             </div>
         </div>
-    </div>
-</ng-container>   
+    </ng-container>
 </ng-container>
