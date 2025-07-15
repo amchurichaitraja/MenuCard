@@ -87,7 +87,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
----
+
 
 ### 🚀 5. Deploy the Project on EC2
 
@@ -112,14 +112,14 @@ npm install
 npm run start
 ```
 
----
+
 
 ### 🌐 6. Update EC2 Security Group
 
 - Go to EC2 Console → Select your instance → Security → Edit Inbound Rules
 - Add a **Custom TCP Rule** for **Port 3000** and source as **0.0.0.0/0** (or your IP range)
 
----
+
 
 ### 📡 7. Set Up Elastic IP (Optional)
 
@@ -127,7 +127,7 @@ npm run start
 - Associate it with your EC2 instance
 - Use this IP as your `DOMAIN` in the `.env` file
 
----
+
 
 ## 🎉 Deployment Complete!
 
@@ -135,4 +135,3 @@ Your Node.js + Angular application is now running live on an AWS EC2 instance!
 
 This full-stack project was **developed, configured, and deployed entirely by me** — from coding the Angular frontend and Node.js backend, to launching it on AWS infrastructure.
 
----
