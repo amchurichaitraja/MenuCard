@@ -4,7 +4,7 @@
 
 This project was completely built and deployed by me, including development with Angular and deployment on AWS EC2 using a Node.js backend.
 
----
+
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ This project was completely built and deployed by me, including development with
 - ⚡ Responsive and fast user experience
 - 🌐 Deployed on AWS EC2 using Node.js backend and environment variables for configuration
 
----
+
 
 ## 🧱 Tech Stack
 
@@ -22,15 +22,15 @@ This project was completely built and deployed by me, including development with
 - **Deployment:** AWS EC2 (Ubuntu)
 - **Other Tools:** Git, SSH, Elastic IP, Environment Variables
 
----
+
 
 ## ▶️ Running the Project Locally
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/verma-kunal/AWS-Session.git
-cd AWS-Session
+git clone https://github.com/amchurichaitraja/MenuCard.git
+cd MenuCard
 ```
 
 ### 2. Set up environment variables
@@ -38,8 +38,8 @@ cd AWS-Session
 Create a `.env` file in the root directory with the following content:
 
 ```env
-DOMAIN=""
-PORT=3000
+DOMAIN="http://localhost:4200"
+PORT=4200
 STATIC_DIR="./client"
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
@@ -54,7 +54,7 @@ npm run start
 
 The application should now be running at `http://localhost:4200`.
 
----
+
 
 ## ☁️ Deploying to AWS EC2 (Ubuntu)
 
