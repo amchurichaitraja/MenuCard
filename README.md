@@ -50,6 +50,7 @@ SECRET_KEY=""
 ```bash
 npm install
 npm run start
+ng serve
 ```
 
 The application should now be running at `http://localhost:4200`.
